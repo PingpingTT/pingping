@@ -1,0 +1,223 @@
+body{
+    background-color: #D2E8E8;
+}
+.frame{
+    height: 30vh;
+    overflow: hidden;
+    display: block;
+    unicode-bidi: isolate;
+}
+.imgbg{
+    background: url(picture/background.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.textbg{ 
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+.content{
+    width: 600px;
+    position: absolute;
+    margin: 0 550px;
+    }
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    color: black;
+    font-size: 20px;
+}
+.pagetext{
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 100px;
+}
+a{
+    text-decoration: none;
+}
+.item1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("picture/cat.jpg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    box-shadow: 0 0 15px #000000;
+ }
+ .item2{
+     position: absolute;
+     top: 100px;
+     left: 400px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/cafe.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item3{
+     position: absolute;
+     top: 100px;
+     left: 700px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/animal.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item4{
+     position: absolute;
+     top: 400px;
+     left: 100px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/coc.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item5{
+     position: absolute;
+     top: 400px;
+     left: 400px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/gpu.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item6{
+     position: absolute;
+     top: 400px;
+     left: 700px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/ok.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item7{
+     position: absolute;
+     top: 700px;
+     left: 100px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/pool.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item8{
+     position: absolute;
+     top: 700px;
+     left: 400px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/light.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+ .item9{
+     position: absolute;
+     top: 700px;
+     left: 700px;
+     width: 200px;
+     height: 200px;
+     background-image: url("picture/keyboard.jpg");
+     background-size: cover;
+     background-position: center;
+     cursor: pointer;
+     box-shadow: 0 0 15px #000000;
+ }
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.box{
+    width: 700px;
+    height: 500px;
+    top: 100px;
+    left: 300px;
+    background-color: rgba(238, 229, 180, 0.705);
+    position: fixed;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.imgcat{
+    width: 20vh;
+    height: auto;
+    border-radius: 30px;
+    position: absolute;
+    left: 450px;
+    top: 120px;
+}
+.textsize{
+    margin: 20px;
+    font-size: 30px;
+}
+.arrowl{
+    position: absolute;
+    width: 40px;
+    left: 20px;
+    top: 460px;
+
+}
+.arrowr{
+    position: absolute;
+    width: 40px;
+    top: 460px;
+    left: 630px;
+}
+.home{
+    position: absolute;
+    width: 150px;
+    top: 410px;
+    left: 250px;
+}
+.imgcafe{
+    width: 20vh;
+    height: 300px;
+    border-radius: 30px;
+    position: absolute;
+    left: 450px;
+    top: 120px;
+}
+.imganimal{
+    width: 20vh;
+    height: 300px;
+    border-radius: 30px;
+    position: absolute;
+    left: 450px;
+    top: 140px;
+}
+footer{
+    background-color: rgb(192, 184, 219);
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+  }
